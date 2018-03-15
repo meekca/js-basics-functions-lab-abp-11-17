@@ -11,3 +11,7 @@ function calculateVertical (origin, destination) {
 function distanceFromHqInBlocks (origin) {
   return Math.abs(origin-42);
 }
+
+function distanceFromHqInFeet () {
+    distanceFromHqInBlocks (origin) * 264;
+}
