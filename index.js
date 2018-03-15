@@ -1,9 +1,13 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks () {
+let origin
+
+let destination
+
+function calculateVertical (origin, destination) {
+  return Math.abs(origin - destination);
 
 }
 
-function distanceFromHqInFeet () {
-  distanceFromHqInBlocks();
-  // calls distanceFromHqInBlocks from inside the distanceFromHqInFeet function
+function distanceFromHqInBlocks (origin) {
+  return Math.abs(origin-42);
 }
