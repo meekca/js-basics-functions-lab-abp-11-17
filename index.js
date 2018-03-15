@@ -13,5 +13,5 @@ function distanceFromHqInBlocks (origin) {
 }
 
 function distanceFromHqInFeet () {
-    distanceFromHqInBlocks (origin) * 264;
+    return distanceFromHqInBlocks (origin) * 264;
 }
