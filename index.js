@@ -2,3 +2,8 @@
 function distanceFromHqInBlocks () {
 
 }
+
+function distanceFromHqInFeet () {
+  distanceFromHqInBlocks();
+  // calls distanceFromHqInBlocks from inside the distanceFromHqInFeet function
+}
