@@ -12,6 +12,6 @@ function distanceFromHqInBlocks (origin) {
   return Math.abs(origin-42);
 }
 
-function distanceFromHqInFeet () {
+function distanceFromHqInFeet (origin) {
     return distanceFromHqInBlocks (origin) * 264;
 }
